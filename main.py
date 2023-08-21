@@ -27,7 +27,6 @@ class Decode_QR_Symbols():
             search_pattern = os.path.join(path, '**', f'*.{ext}')
             image_paths.extend(glob.glob(search_pattern, recursive=True))
 
-        random.shuffle(image_paths)
         return image_paths
 
 
@@ -382,7 +381,7 @@ class Decode_QR_Symbols():
                 experiment_count += 1
             self.df.at[index, 'experiment_number'] = experiment_count
 
-        self.df.to_csv(ALL_DATA_CSV_PATH, index=False, dtype=str)
+        self.df.to_csv(ALL_DATA_CSV_PATH, index=False)
         print('All data extracted saved to', ALL_DATA_CSV_PATH)
 
 
