@@ -1,6 +1,6 @@
 # QR_and_Symbol_Detection
 
-This repository has been created with the objective of extracting information from images used in experiment tracking. Its purpose is to read the information encoded in QR codes and identify handwritten symbols. The repository contains a total of 25 example images. The project serves as an automated data extraction tool for newly acquired experiment images. This work is a part of the process that helps the German laboratory and the Jozef Stefan Institute in Slovenia communicate and work together smoothly.
+This repository has been created with the objective of extracting information from images used in experiment tracking. Its purpose is to read the information encoded in QR codes and identify handwritten symbols. The repository contains a total of 25 example images. The project serves as an automated data extraction tool for newly acquired experiment images. This work is helps as an automation part in the project which runs between a laboratory in Germany  and Jozef Stefan Institute in Slovenia.
 
 ## How to Execute
 
@@ -10,7 +10,7 @@ This repository has been created with the objective of extracting information fr
 2. Create a Virtual Environment
     ```
     $ sudo apt-get install python3-venv
-    $ cd <PathToRepo>/
+    $ cd <PathToRepo>/QR_and_Symbol_Detection/
     $ python3 -m venv .venv
     ```
 3. Activate the Environment
