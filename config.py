@@ -13,7 +13,7 @@ import pandas as pd
 QR_codes = ['533424', '289562', '774740', '705548', '579519', '301948']
 image_extensions = ['jpg', 'jpeg', 'png', 'gif']
 
-RAW_IMAGES_PATH = '<PATH>/Gabrofil/Slike_poskus_25.7.2023/'
+RAW_IMAGES_PATH = '<PATH>/Phones/'
 ALL_DATA_CSV_PATH = '<PATH>/all_data.csv'
 DATA_CSV_PATH = '<PATH>/data.csv'
 
