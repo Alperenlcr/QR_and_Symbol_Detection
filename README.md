@@ -9,9 +9,8 @@ This repository has been created with the objective of extracting information fr
 1. Clone the Repository
 2. Create a Virtual Environment
     ```
-    $ sudo apt-get install python3-venv
     $ cd <PathToRepo>/QR_and_Symbol_Detection/
-    $ python3 -m venv .venv
+    $ python -m venv .venv
     ```
 3. Activate the Environment
     ```
@@ -24,7 +23,7 @@ This repository has been created with the objective of extracting information fr
 5. Configure the `config.py` and set the PATH variable.
 6. Execute the Following Command
     ```
-    $ python3 main.py
+    $ python main.py
     ```
 
 ## Step-by-Step Code Explanation
