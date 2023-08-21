@@ -1,0 +1,7 @@
+numpy==1.23.5
+opencv-python==4.8.0.74
+opencv-python-headless==4.8.0.74
+kraken==4.3.13
+Pillow==10.0.0
+qreader==2.13
+pandas==1.4.3
