@@ -2,10 +2,13 @@
 
 This repository has been created with the objective of extracting information from images used in experiment tracking. Its purpose is to read the information encoded in QR codes and identify handwritten symbols. The repository contains a total of 25 example images. The project serves as an automated data extraction tool for newly acquired experiment images. This work is helps as an automation part in the project which runs between a laboratory in Germany  and Jozef Stefan Institute in Slovenia.
 
-## How to Execute
+# How to Execute
 
-- It is recommended to run the code within a virtual environment due to the space occupied by Python libraries.
+- It is recommended to run the code within a virtual environment due to the space occupied by Python libraries or in docker container.
 - The project was developed using Python 3.8.10; compatibility issues are unlikely.
+
+## How to Run in Virtual Environment
+
 1. Clone the Repository
 2. Create a Virtual Environment
     ```
@@ -24,6 +27,25 @@ This repository has been created with the objective of extracting information fr
 6. Execute the Following Command
     ```
     $ python main.py
+    ```
+## How to Run in Docker Container
+
+- Install [docker](https://docs.docker.com/engine/install/) to your system.
+- Change paths in `config.py` and `compose.yaml`.
+    - Delete '\<PATH>' in `config.py`. It should appear as follows.
+        ```
+            RAW_IMAGES_PATH = 'Phones/'
+            ALL_DATA_CSV_PATH = 'all_data.csv'
+            DATA_CSV_PATH = 'data.csv'
+        ```
+        You also have the flexibility to modify the phones folder name or CSV file names, as long as they remain adjacent to the main.py file.
+- Modify this line in `compose.yaml`.
+    ```
+        - <YOUR_PATH>/QR_and_Symbol_Detection:/app  # This is necessary for saving output
+    ```
+- Run this command to create and run container.
+    ```
+        docker compose up --build
     ```
 
 ## Step-by-Step Code Explanation
