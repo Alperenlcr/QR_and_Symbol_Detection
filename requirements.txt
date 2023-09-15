@@ -5,3 +5,5 @@ kraken
 Pillow
 qreader
 pandas
+scipy
+imutils
