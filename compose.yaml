@@ -12,7 +12,7 @@ services:
     build:
       context: .
     volumes:
-      - <YOUR_PATH>/QR_and_Symbol_Detection:/app  # This is necessary for saving output
+      - <YOUR_PATH>/QR_and_Symbol_Detection-Image_Analysis:/app  # This is necessary for saving output
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
 # start the database before your application. The `db-data` volume persists the
