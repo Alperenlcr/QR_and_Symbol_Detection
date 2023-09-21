@@ -115,7 +115,7 @@ This repository has been created with the objective of extracting information fr
 6. Compute the distance to the tubes, leveraging our knowledge of the tubes' actual dimensions.
 7. Save images based on the configuration variables `save_normalized_tubes` and `save_normalized_tubes_with_circles` from the **config.py** file.
 
-### Result Table Columns:
+### Result Table:
 **Column names and an example row from `all_data.csv`**
 
 | Attribute               | Value                   |
@@ -133,5 +133,7 @@ This repository has been created with the objective of extracting information fr
 | Circles Info            |: {'big_circle_centers': [[424, 392, 354], [410, 1078, 324], [422, 1786, 335], [1158, 366, 329], [1164, 1084, 316], [1150, 1788, 332]], 'small_circle_centers': [[440, 448, 291], [448, 1098, 291], [438, 1774, 285], [1150, 432, 267], [1136, 1108, 279], [1122, 1778, 287]]} |
 | Angle Multiplier Info   |: Normal, x angle multiplier:-7.2, y angle multiplier:0.6 |
 | Saving ID               |: 73                      |
-
+#
 ![Screenshot 2023-09-19 143150](https://github.com/Alperenlcr/QR_and_Symbol_Detection-Image_Analysis/assets/75525649/6d04704f-8f9e-491d-8762-395bd041e1dd)
+#
+#### Subsequent Project : [Camera_Height_Estimation](https://github.com/Alperenlcr/Camera_Height_Estimation)
