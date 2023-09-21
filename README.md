@@ -116,6 +116,22 @@ This repository has been created with the objective of extracting information fr
 7. Save images based on the configuration variables `save_normalized_tubes` and `save_normalized_tubes_with_circles` from the **config.py** file.
 
 ### Result Table Columns:
-date, QRcode, experiment_number, light, phone_name, image_name, black_rectangle_corners, height_phone_b, height_phone_t, height_phone, circles_info, angle_multiplier_info, savingID
+**Column names and an example row from `all_data.csv`**
+
+| Attribute               | Value                   |
+|-------------------------|-------------------------|
+| Date                    |: 2023-07-25 10:00:59     |
+| QR Code                 |: 705548                  |
+| Experiment Number       |: 1                       |
+| Light                   |: 101                     |
+| Phone Name              |: Huawei P60 Pro          |
+| Image Name              |: IMG_20230725_100059.jpg |
+| Black Rectangle Corners |: {'lt': [610, 720], 'rt': [2380, 725], 'lb': [540, 3605], 'rb': [2500, 3585]} |
+| Height (Bottom)         |: 230.230361              |
+| Height (Top)            |: 254.95661               |
+| Height                  |: 242.593485              |
+| Circles Info            |: {'big_circle_centers': [[424, 392, 354], [410, 1078, 324], [422, 1786, 335], [1158, 366, 329], [1164, 1084, 316], [1150, 1788, 332]], 'small_circle_centers': [[440, 448, 291], [448, 1098, 291], [438, 1774, 285], [1150, 432, 267], [1136, 1108, 279], [1122, 1778, 287]]} |
+| Angle Multiplier Info   |: Normal, x angle multiplier:-7.2, y angle multiplier:0.6 |
+| Saving ID               |: 73                      |
 
 ![Screenshot 2023-09-19 143150](https://github.com/Alperenlcr/QR_and_Symbol_Detection-Image_Analysis/assets/75525649/6d04704f-8f9e-491d-8762-395bd041e1dd)
